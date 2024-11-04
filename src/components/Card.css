@@ -1,0 +1,71 @@
+.card {
+  background-color: white;
+  border: 1px solid #e6e7eb;
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 8px;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.ticket-id {
+  color: #8c8c8c;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.avatar {
+  width: 24px;
+  height: 24px;
+  background-color: #f4f5f8;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  position: relative;
+}
+
+.status-indicator {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 8px;
+  height: 8px;
+  background-color: #4caf50;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+.card-title h3 {
+  font-size: 15px;
+  font-weight: 500;
+  margin: 0 0 12px 0;
+  color: #333;
+}
+
+.card-footer {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.priority-tag, .feature-tag {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 2px 8px;
+  border: 1px solid #e6e7eb;
+  border-radius: 4px;
+  font-size: 12px;
+  color: #666;
+}
+
+.feature-tag span {
+  color: #999;
+}
